@@ -12,29 +12,15 @@ const todo = require("./routes/todo");
 connectDB();
 
 app.use(cors({ origin: true, credentials: true })); 
-
-var allowedOrigins = ['http://localhost:8000','https://todaysreminders.herokuapp.com/'];
  
-app.use(cors({
- 
-  origin: function(origin, callback){
- 
-    if(!origin) return callback(null, true);
- 
-    if(allowedOrigins.indexOf(origin) === -1){
- 
-      var msg = 'The CORS policy for this site does not ' +
- 
-                'allow access from the specified Origin.';
- 
-      return callback(new Error(msg), false);
- 
+ app.use((req, res, next) => {
+    const allowedOrigins = ['http://localhost:8000','https://todaysreminders.herokuapp.com/'];
+    const origin = req.headers.origin;
+    if (allowedOrigins.includes(origin)) {
+      res.setHeader('Access-Control-Allow-Origin', origin);
     }
- 
-    return callback(null, true);
- 
-  }
-}));
+    return next();
+  });
 
 
 app.use(express.json());
