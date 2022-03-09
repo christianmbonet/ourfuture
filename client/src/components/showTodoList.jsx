@@ -75,7 +75,7 @@ function ShowTodoList() {
                 <button className="button">Add Task</button>
             </Link>
             <section className="contents">
-                <h1>Solarpunk Checklist</h1>
+                <h1>Solarpunk</h1>
                 <p className='actionCall'>What our future needs</p>
                 <ul className="list-container">
                     {todo.map((data) => (
