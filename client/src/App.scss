@@ -102,14 +102,15 @@ button {
 
 .cardItemTitle {
     display: flex;
-    justify-content: center;
     padding: 5px;
 }
 
 .cardItemDescription {
     display: flex;
-    justify-content: center;
     padding-bottom: 15px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .list-container {
