@@ -34,7 +34,7 @@ function ShowTodoList() {
     useEffect(
         function () {
             axios
-                .get("https://localhost:8000/api/todo")
+                .get("/api/todo")
                 .then((res) => {
                     console.log(res.data);
                     setTodo(res.data);
@@ -57,7 +57,7 @@ function ShowTodoList() {
     }
 
     function handleDelete(e) {
-        axios.delete(`http://localhost:8000/api/todo/${e.target.name}`);
+        axios.delete(`/api/todo/${e.target.name}`);
 
         setTodo((data) => {
             return data.filter((todo) => todo._id !== e.target.name);
