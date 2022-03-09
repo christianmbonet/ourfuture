@@ -14,7 +14,7 @@ function UpdateTodo({ _id, handleClose, handleEdited }) {
         console.log({ _id }, { data });
 
         axios
-            .put(`http://localhost:8000/api/todo/${_id}`, data)
+            .put(`/api/todo/${_id}`, data)
             .then((res) => {
                 setData({ title: "", description: "" });
                 console.log(res.data.message);

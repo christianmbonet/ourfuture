@@ -9,8 +9,8 @@ function TodoCard({ data, handleEdit, handleDelete }) {
     return (
         <li key={_id}>
             <div className="title-description">
-                <h3>{title}</h3>
-                <p>{description}</p>
+                <h3 className='cardItemTitle'>{title}</h3>
+                <p className='cardItemDescription'>{description}</p>
             </div>
 
             <div className="button-container">
@@ -75,7 +75,8 @@ function ShowTodoList() {
                 <button className="button">Add Task</button>
             </Link>
             <section className="contents">
-                <h1>To Do List</h1>
+                <h1>Solarpunk Checklist</h1>
+                <p className='actionCall'>A semi-decentalized to-do list for our solarpunk future</p>
                 <ul className="list-container">
                     {todo.map((data) => (
                         <TodoCard
