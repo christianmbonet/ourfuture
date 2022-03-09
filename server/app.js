@@ -14,7 +14,7 @@ connectDB();
 // app.use(cors({ origin: true, credentials: true })); 
  
  app.use((req, res, next) => {
-    const allowedOrigins = ['http://localhost:8000','https://todaysreminders.herokuapp.com/'];
+    const allowedOrigins = ['https://localhost:8000','https://todaysreminders.herokuapp.com/'];
     const origin = req.headers.origin;
     if (allowedOrigins.includes(origin)) {
       res.setHeader('Access-Control-Allow-Origin', origin);
