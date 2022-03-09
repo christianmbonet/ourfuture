@@ -13,7 +13,7 @@ connectDB();
 
 app.use(cors({ origin: true, credentials: true })); 
 
-var allowedOrigins = ['http://localhost:000','https://todaysreminders.herokuapp.com/'];
+var allowedOrigins = ['http://localhost:3000','https://todaysreminders.herokuapp.com/'];
  
 app.use(cors({
  
