@@ -112,6 +112,11 @@ button {
     padding-left: 5px;
 }
 
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .list-container {
     display: flex;
     justify-content: center;
@@ -141,9 +146,6 @@ button {
             }
         }
 
-        .button-container {
-            display: flex;
-            justify-content: space-between;
 
             button {
                 &:first-of-type {
@@ -151,7 +153,6 @@ button {
 
                 }
             }
-        }
     }
 
     @media only screen and (min-width: 768px) {
