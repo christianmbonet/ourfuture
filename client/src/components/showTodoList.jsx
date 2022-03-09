@@ -76,7 +76,7 @@ function ShowTodoList() {
             </Link>
             <section className="contents">
                 <h1>Solarpunk Checklist</h1>
-                <p className='actionCall'>A semi-decentalized to-do list for our solarpunk future</p>
+                <p className='actionCall'>What our future needs</p>
                 <ul className="list-container">
                     {todo.map((data) => (
                         <TodoCard
