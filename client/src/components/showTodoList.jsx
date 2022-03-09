@@ -34,7 +34,7 @@ function ShowTodoList() {
     useEffect(
         function () {
             axios
-                .get("http://localhost:8000/api/todo")
+                .get("https://localhost:8000/api/todo")
                 .then((res) => {
                     console.log(res.data);
                     setTodo(res.data);
