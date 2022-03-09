@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-function UpdateTodo({ _id, handleClose, handleEdited }) {
+function UpdateTodo({ _id, handleClose, handleUpdate }) {
     const [data, setData] = useState({ title: "", description: "" });
 
     function handleChange(e) {
@@ -30,7 +30,7 @@ function UpdateTodo({ _id, handleClose, handleEdited }) {
             className="form-container"
             onSubmit={(e) => {
                 handleSubmit(e);
-                handleEdited();
+                handleUpdate();
                 handleClose();
             }}
         >

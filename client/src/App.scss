@@ -45,10 +45,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-transform: capitalize;
-
     border: none;
-
     height: 4rem;
     width: 24rem;
 }
@@ -57,7 +54,6 @@ button {
     display: flex;
     margin: 0;
     font-weight: 500;
-    border: 2px solid black;
 }
 
 .editButton {
@@ -65,7 +61,7 @@ button {
     font-weight: 500;
     padding: 12px;
     margin-top: 5px;
-    border: .5px solid darkslategrey;
+    border: none;
 }
 
 .deleteButton {
@@ -93,7 +89,6 @@ button {
 
 .contents {
     grid-area: contents;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,7 +137,6 @@ button {
             
 
             h3 {
-                text-transform: capitalize;
                 margin-bottom: 1rem;
             }
         }
@@ -204,14 +198,11 @@ button {
     position: absolute;
     top: 0;
     left: 0;
-
     height: 100vh;
     width: 100vw;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-color: rgba(0, 0, 0, 0.4);
 
     .update-contents {
