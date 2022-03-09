@@ -72,10 +72,10 @@ function ShowTodoList() {
     return (
         <section className="container">
             <Link to="/create-todo" className="button-new">
-                <button className="button">Add Task</button>
+                <button className="button">Add</button>
             </Link>
             <section className="contents">
-                <h1>Visions of the Futurek</h1>
+                <h1>Visions of the Future</h1>
                 <p className='actionCall'>What does our future need?</p>
                 <ul className="list-container">
                     {todo.map((data) => (

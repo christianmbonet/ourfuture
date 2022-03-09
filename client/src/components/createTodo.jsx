@@ -66,7 +66,7 @@ function CreateTodo() {
                         className="input"
                     />
                     <button type="submit" className="button" onClick={handleSubmit}>
-                        create todo
+                        Add
                     </button>
                 </form>
             </section>
