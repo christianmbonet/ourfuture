@@ -11,16 +11,24 @@ const todo = require("./routes/todo");
 
 connectDB();
 
-app.use(cors({ origin: true, credentials: true })); 
+// app.use(cors({ origin: true, credentials: true })); 
+
+app.use(cors({
+  origin: 'https://todaysreminders.herokuapp.com/'
+}));
+
+app.get('/', (req, res) => {
+  res.send('CORS solved')
+})
  
- app.use((req, res, next) => {
-    const allowedOrigins = ['http://localhost:3000','https://todaysreminders.herokuapp.com/'];
-    const origin = req.headers.origin;
-    if (allowedOrigins.includes(origin)) {
-      res.setHeader('Access-Control-Allow-Origin', origin);
-    }
-    return next();
-  });
+//  app.use((req, res, next) => {
+//     const allowedOrigins = ['http://localhost:3000','https://todaysreminders.herokuapp.com/'];
+//     const origin = req.headers.origin;
+//     if (allowedOrigins.includes(origin)) {
+//       res.setHeader('Access-Control-Allow-Origin', origin);
+//     }
+//     return next();
+//   });
 
 
 app.use(express.json());
