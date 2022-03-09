@@ -56,21 +56,21 @@ button {
     font-weight: 500;
 }
 
-.editButton {
-    display: flex;
-    font-weight: 500;
-    padding: 12px;
-    margin-top: 5px;
-    border: none;
-}
+// .editButton {
+//     display: flex;
+//     font-weight: 500;
+//     padding: 12px;
+//     margin-top: 5px;
+//     border: none;
+// }
 
-.deleteButton {
-    display: flex;
-    font-weight: 500;
-    padding: 12px;
-    margin-top: 5px;
-    border: .5px solid darkslategray;
-}
+// .deleteButton {
+//     display: flex;
+//     font-weight: 500;
+//     padding: 12px;
+//     margin-top: 5px;
+//     border: .5px solid darkslategray;
+// }
 
 .button-back,
 .button-new {
@@ -108,7 +108,6 @@ button {
 .cardItemDescription {
     display: flex;
     padding-bottom: 15px;
-    padding-top: 5px;
     padding-right: 5px;
     padding-left: 5px;
 }
