@@ -82,7 +82,7 @@ button {
     margin: 0;
     font-weight: 500;
     background-color: lightgoldenrodyellow;
-    color: darkslategrey;
+    color: black;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -158,11 +158,13 @@ button {
 
 .cardItemTitle {
     display: flex;
+    justify-content: center;
     padding: 5px;
 }
 
 .cardItemDescription {
     display: flex;
+    justify-content: center;
     padding-bottom: 15px;
     padding-right: 5px;
     padding-left: 5px;
@@ -194,10 +196,6 @@ button {
         margin: 0 auto 2rem;
         border: 1.5px solid lightgray;
 
-        ul {
-            display: flex;
-            justify-content: center;
-        }
         
         .title-description {
             
