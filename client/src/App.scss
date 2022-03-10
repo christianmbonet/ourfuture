@@ -81,7 +81,7 @@ button {
     display: flex;
     margin: 0;
     font-weight: 500;
-    background-color: #fb8b24;
+    background-color: lightgoldenrodyellow;
     color: darkslategrey;
     font-weight: bold;
     display: flex;
@@ -99,9 +99,9 @@ button {
     padding: 12px;
     margin: 5px;
     border: none;
-    background-color: #fb8b24;
+    background-color: white;
     color: darkslategray;
-    border: 2px solid white;
+    border: none;
     font-weight: bold;
 }
 
@@ -111,9 +111,9 @@ button {
     padding: 12px;
     margin: 5px;
     border: none;
-    background-color: #fb8b24;
+    background-color: white;
     color: darkslategray;
-    border: 2px solid white;
+    border: none;
     font-weight: bold;
 }
 
@@ -124,7 +124,8 @@ button {
     border: none;
     border-radius: 0px;
     height: 4rem;
-    width: 24rem; 
+    width: 24rem;
+    font-weight: bold; 
 }
 
 .button-back,
@@ -191,6 +192,7 @@ button {
         height: max-content;
         width: 24rem !important;
         margin: 0 auto 2rem;
+        border: 1.5px solid lightgray;
         
         .title-description {
             
