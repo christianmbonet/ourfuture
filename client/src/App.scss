@@ -65,7 +65,7 @@ button {
     margin: 0;
     font-weight: 500;
     background-color: #fb8b24;
-    color: white;
+    color: black;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -73,7 +73,6 @@ button {
     border: none;
     height: 4rem;
     width: 24rem;
-    border: 2px solid white;
 }
 
 
@@ -158,13 +157,11 @@ button {
 
 .cardItemTitle {
     display: flex;
-    justify-content: center;
     padding: 5px;
 }
 
 .cardItemDescription {
     display: flex;
-    justify-content: center;
     padding-bottom: 15px;
     padding-right: 5px;
     padding-left: 5px;
