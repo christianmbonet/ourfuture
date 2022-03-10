@@ -15,10 +15,10 @@ function TodoCard({ data, handleEdit, handleDelete }) {
 
             <div className="button-container">
                 <button className="editButton" name={_id} onClick={handleEdit}>
-                    edit
+                    Edit
                 </button>
                 <button className="deleteButton" name={_id} onClick={handleDelete}>
-                    delete
+                    Delete
                 </button>
             </div>
         </li>
