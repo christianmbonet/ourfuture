@@ -66,6 +66,12 @@ button {
     background-color: #fb8b24;
     color: white;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height: 4rem;
+    width: 24rem;
 }
 
 .addCreateButton {
@@ -75,6 +81,12 @@ button {
     background-color: #fb8b24;
     color: black;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height: 4rem;
+    width: 24rem;
 }
 
 .editButton {
