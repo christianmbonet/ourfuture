@@ -88,6 +88,7 @@ button {
     border: none;
     height: 4rem;
     width: 24rem;
+    border: 2px solid white;
 }
 
 .editButton {
@@ -143,7 +144,6 @@ button {
 .cardItemTitle {
     display: flex;
     padding: 5px;
-    font-weight: 300;
 }
 
 .cardItemDescription {
