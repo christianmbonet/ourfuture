@@ -72,7 +72,7 @@ function ShowTodoList() {
     return (
         <section className="container">
             <Link to="/create-todo" className="button-new">
-                <button className="button">Add</button>
+                <button className="addShowButton">Add</button>
             </Link>
             <section className="contents">
                 <h1>Visions of the Future</h1>

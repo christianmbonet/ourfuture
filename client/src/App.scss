@@ -59,6 +59,24 @@ button {
     font-weight: bold;
 }
 
+.addShowButton {
+    display: flex;
+    margin: 0;
+    font-weight: 500;
+    background-color: #fb8b24;
+    color: white;
+    font-weight: bold;
+}
+
+.addCreateButton {
+    display: flex;
+    margin: 0;
+    font-weight: 500;
+    background-color: #fb8b24;
+    color: black;
+    font-weight: bold;
+}
+
 .editButton {
     display: flex;
     font-weight: 500;
@@ -112,6 +130,7 @@ button {
 .cardItemTitle {
     display: flex;
     padding: 5px;
+    font-weight: bold;
 }
 
 .cardItemDescription {
@@ -139,14 +158,14 @@ button {
         border: solid 1px lightgrey;
         display: flex;
         flex-direction: column;
-        // justify-content: center;
-        // align-items: center;
+        justify-content: space-around;
+        align-items: space-around;
         padding: 2rem;
         min-height: 20rem;
         height: max-content;
         width: 24rem !important;
-        
         margin: 0 auto 2rem;
+        
         .title-description {
             
 
