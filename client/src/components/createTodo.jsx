@@ -36,7 +36,7 @@ function CreateTodo() {
         <section className="container">
             <Link to="/" className="button-back">
                 <button type="button" className="button">
-                    back
+                    Back
                 </button>
             </Link>
             <section className="contents">
