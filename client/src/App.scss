@@ -193,6 +193,11 @@ button {
         width: 24rem !important;
         margin: 0 auto 2rem;
         border: 1.5px solid lightgray;
+
+        ul {
+            display: flex;
+            justify-content: center;
+        }
         
         .title-description {
             
