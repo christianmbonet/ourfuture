@@ -1,6 +1,6 @@
 # MERN Web App
 
-visionsofthefuture
+ourfuture
 
 ## Purpose:
 
