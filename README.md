@@ -8,9 +8,9 @@ A communal to-do list to help envision a better future.
 
 ## Set Up:
 
-```git clone git@github.com:christianmbonet/visionsofthefuture.git```
+```git clone git@github.com:christianmbonet/ourfuture.git```
 
-```cd visionsofthefuture```
+```cd ourfuture```
 
 ```yarn```
 
@@ -38,7 +38,7 @@ Client:
 * react: ^17.0.2
 * react-dom: ^17.0.2
 * react-router-dom: ^6.2.2
-* react-scripts": 5.0.0
+* react-scripts: 5.0.0
 * web-vitals: ^2.1.0
 
 ## Database: 
